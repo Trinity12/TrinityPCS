@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html>
+     <head> 
+         <title>www.TrinityPSc.com</title>
+            <style type="text/css">
+			  input.help2 {position:relative;top:-22px;left:160px;height:100%;box-shadow:3px 3px 3px black;font-family:notepad;font-size:13px;background-color:#FF2A7F;}
+				       h1 {font-family:notepad;}
+				input.help{box-shadow: 3px 3px 3px black;}
+			        input {font-family:notepad;}
+					     p{font-size:45px;}
+					div.IN{ background-color#:#FF2A7F;height:25px;}
+               </style>
+       </head>
+   <body>
+         <div class="HON">
+            <h1>Head-Line</h1>
+         </div>
+            <div class="BDO">
+               <input class="help" id="helpMe" type="textbox" value="Type Something">
+                   <div class="IN">
+                     <input class="help2" type="button" onclick="hopeON()" value="click Me">
+                </div>
+                   <p class="Newp" id="NewP">:(</p>
+            <script>
+                function hopeON (){
+				var help = document.getElementById("helpMe");
+                  var hopeIt = document.getElmentById("NewP");
+                       hopeIt.innerHTML+= help;
+                } 
+             </script>
+      </body>
+  </html>

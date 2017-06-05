@@ -1,0 +1,21 @@
+*{
+ font-family: 'Convergence', sans-serif;	
+}
+input{
+	width:300px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:0.8px solid blue;
+	border-radius:5px;
+	padding-left:10px;
+}
+.container-box{
+	height:400px;
+	width:400px;
+	border:1px solid pink;
+	text-align:center;
+	margin:10%;
+}
+button{
+	width:300px;
+}
